@@ -96,7 +96,7 @@ export default function Home() {
             <h2 className={inter.className}>
               DKK<span>-&gt; </span><span>GBP</span>
             </h2>
-            <p className={inter.className}>
+            <p style={{ fontSize: "3rem" }} className={inter.className}>
               {fromDKKtoGBP}
             </p>
           </a>
