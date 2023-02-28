@@ -73,11 +73,8 @@ export default function Home() {
 
 
         <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <span
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
               SEK<span>-&gt;</span><span>GBP</span>
@@ -85,13 +82,9 @@ export default function Home() {
             <p style={{ fontSize: "3rem" }} className={inter.className}>
               {fromSEKtoGBP}
             </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          </span>
+          <span
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
               DKK<span>-&gt; </span><span>GBP</span>
@@ -99,7 +92,7 @@ export default function Home() {
             <p style={{ fontSize: "3rem" }} className={inter.className}>
               {fromDKKtoGBP}
             </p>
-          </a>
+          </span>
         </div>
       </main>
     </>

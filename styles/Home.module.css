@@ -140,7 +140,7 @@
 }
 
 .center button:hover {
-  color: red
+  color: rgb(78, 65, 144)
 }
 
 .thirteen::before,
